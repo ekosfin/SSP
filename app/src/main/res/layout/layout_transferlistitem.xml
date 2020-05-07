@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/account_parrent_layout">
+
+    <TextView
+        android:id="@+id/textSender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lahettäjä"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+
+        android:gravity="left" />
+
+    <TextView
+        android:id="@+id/textReceiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vastaanottaja"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+
+        android:layout_toEndOf="@+id/textSender"
+        android:paddingStart="15dp" />
+
+    <TextView
+        android:id="@+id/textMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Summa"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:layout_toEndOf="@+id/textReceiver"
+        android:paddingStart="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viesti"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+
+        android:layout_below="@id/textSender"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Päiväys"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:layout_toEndOf="@id/textMessage"
+        android:layout_below="@id/textSender"
+        android:paddingTop="10dp"
+        android:paddingStart="15dp"/>
+
+</RelativeLayout>

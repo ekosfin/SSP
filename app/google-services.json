@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "959750783349",
+    "firebase_url": "https://olio-harkka.firebaseio.com",
+    "project_id": "olio-harkka",
+    "storage_bucket": "olio-harkka.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959750783349:android:6bd30538255d0f95b5133c",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959750783349-hf48h7sshbd6onh4175ut35ddikpvfio.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project",
+            "certificate_hash": "fc977fb0d4a1211221b2553cecb91cc9d217d913"
+          }
+        },
+        {
+          "client_id": "959750783349-pqt4hdkim5pqa9t97rdilufi2etv0bnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959750783349-pqt4hdkim5pqa9t97rdilufi2etv0bnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

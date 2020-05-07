@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/account_parrent_layout">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tilin nimi"
+        android:id="@+id/textaAccountName"
+        android:textColor="@android:color/black"
+        android:layout_centerVertical="true"
+        android:textSize="17sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tilin tyyppi"
+        android:id="@+id/textAccountType"
+        android:textColor="@android:color/black"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:textSize="17sp"
+        android:layout_toRightOf="@+id/textaAccountName"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tilin raha"
+        android:id="@+id/textAccountMoney"
+        android:textColor="@android:color/black"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:textSize="17sp"
+        android:layout_toRightOf="@+id/textAccountType"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tilin numero"
+        android:id="@+id/textaAccountNumber"
+        android:textColor="@android:color/black"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:textSize="17sp"
+        android:layout_toRightOf="@+id/textAccountMoney"
+        />
+
+</RelativeLayout>

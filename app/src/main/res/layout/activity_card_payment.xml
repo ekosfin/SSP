@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#83cc83"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/backButton"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#216c2a"
+        android:src="@drawable/baseline_arrow_back_black_18dp" />
+
+    <EditText
+        android:id="@+id/add_name"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#539b55"
+        android:ems="10"
+        android:hint="Anna kortin nimi"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/add_sum"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#539b55"
+        android:ems="10"
+        android:hint="Anna summa"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/addPayment"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#216c2a"
+        android:text="Maksa" />
+
+</LinearLayout>
